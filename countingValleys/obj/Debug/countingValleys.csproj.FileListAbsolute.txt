@@ -1,0 +1,7 @@
+E:\Projects\train_interview\countingValleys\countingValleys\obj\Debug\countingValleys.csprojResolveAssemblyReference.cache
+E:\Projects\train_interview\countingValleys\countingValleys\obj\Debug\countingValleys.csproj.CoreCompileInputs.cache
+E:\Projects\train_interview\countingValleys\countingValleys\bin\Debug\countingValleys.exe.config
+E:\Projects\train_interview\countingValleys\countingValleys\bin\Debug\countingValleys.exe
+E:\Projects\train_interview\countingValleys\countingValleys\bin\Debug\countingValleys.pdb
+E:\Projects\train_interview\countingValleys\countingValleys\obj\Debug\countingValleys.exe
+E:\Projects\train_interview\countingValleys\countingValleys\obj\Debug\countingValleys.pdb
