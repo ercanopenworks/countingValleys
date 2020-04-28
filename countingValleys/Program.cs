@@ -12,31 +12,48 @@ namespace countingValleys
         // Complete the countingValleys function below.
         static int countingValleys(int n, string s)
         {
-            int numValleys=0;
-            int numMount = 0;
-            int seaLevel = 0;
-            int currentLevel = 0;
+            //int numValleys=0;
+            //int numMount = 0;
+            //int seaLevel = 0;
+            //int currentLevel = 0;
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    if (s[i] == 'D')
+            //    {
+            //        if (currentLevel > 0 && currentLevel - 1 == 0)
+            //        {
+            //            numMount += 1;
+            //        }
+
+            //        currentLevel -= 1;
+
+            //    }
+            //    else if (s[i] == 'U')
+            //    {
+            //        if(currentLevel<0 && currentLevel+1 ==0 ) {
+            //            numValleys += 1;
+            //        }
+            //        currentLevel += 1;
+            //    }
+
+            //}
+
+            int sea_level = 0;
+
+            int sumArray = 0;
 
             for (int i = 0; i < n; i++)
             {
-                if (s[i] == 'D')
-                {
-                    if (currentLevel > 0 && currentLevel - 1 == 0)
-                    {
-                        numMount += 1;
-                    }
+                int val = (s[i] == 'U') ? 1 : -1;
 
-                    currentLevel -= 1;
-                    
-                }
-                else if (s[i] == 'U')
+                sumArray += val;
+
+                if (sumArray == 0 && s[i] == 'U')
                 {
-                    if(currentLevel<0 && currentLevel+1 ==0 ) {
-                        numValleys += 1;
-                    }
-                    currentLevel += 1;
+                    sea_level++;
                 }
-               
+
             }
 
             return numValleys;
@@ -49,9 +66,9 @@ namespace countingValleys
             int n = Convert.ToInt32(Console.ReadLine());
 
 
-            //string s = Console.ReadLine();
+            string s = Console.ReadLine();
 
-            string s = "UDDDUDUU";
+            //string s = "UDDDUDUU";
 
             int result = countingValleys(n, s);
 
