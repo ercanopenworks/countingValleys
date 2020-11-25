@@ -56,7 +56,7 @@ namespace countingValleys
 
             }
 
-            return numValleys;
+            return sea_level;
 
         }
         static void Main(string[] args)
